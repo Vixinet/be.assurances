@@ -1,0 +1,142 @@
+/* #Tablet (Portrait) Note: Design for a width of 768px
+================================================== */
+@media only screen and (min-width: 768px) and (max-width: 1010px) {	
+/* ************************************************************************************************
+  GENERAL STYLE
+************************************************************************************************ */
+#wrapper-2 {width:768px;}
+.contant-wrapper {width:768px;}
+#wrapper-1 {padding: 0px 0 20px;}
+/* ************************************************************************************************
+  OTHER
+************************************************************************************************ */
+input[type=text],input[type=email],input[type=tel],input[type=password],textarea{-webkit-appearance:none;box-shadow:none;-webkit-box-shadow:none;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px;-webkit-appearance:none;}
+textarea {width:548px;}
+
+/* ************************************************************************************************
+  HEADER
+************************************************************************************************ */
+.wrap-cart{width:485px }
+
+#search_block_top input.search_query {width:177px;}
+/* ************************************************************************************************
+  FOOTER
+************************************************************************************************ */
+#tmfooterlinks div {width:175px;}
+#social_block {width:144px;}
+#block_contact_infos {width: 150px;}
+#tmfooterlinks ul li {padding:5px 0 0;}
+#tmfooterlinks ul li a {font-size: 12px;}
+#social_block li a {font-size: 12px;}
+#block_contact_infos li {font-size: 12px; padding:4px 0;}
+#block_contact_infos li strong {font-size: 12px;}
+.footer-inner p.row-footer {font-size: 12px;}
+.footer-inner p.row-footer a {font-size: 12px;}
+
+.footer-inner {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px 5px 5px 5px;
+    min-height: 222px;
+    padding: 0 0 0 17px;
+    position: relative;
+}
+/* ************************************************************************************************
+  FEATURED PRODUCT
+************************************************************************************************ */
+#featured_products ul li {width:120px; padding:19px 0px 0px 19px; }
+#featured_products ul li:first-child{ padding-left:0;}
+#featured_products ul li .product_image,
+#featured_products ul li img {height:120px;width:120px;}
+#featured_products ul li .button { }
+#featured_products ul li .exclusive {margin-bottom:10px;}
+#featured_products ul li h5 {min-height:54px;}
+#featured_products ul li .product_descr {min-height: 45px;}
+
+/* ************************************************************************************************
+  CATEGORY PAGE
+************************************************************************************************ */
+.breadcrumb {width:738px;}
+.list li{ padding:20px;}
+.list li .center_block {padding:0px 0px 20px 20px;width:340px;}
+.list li a.product_img_link img{ width:150px; height:150px;}
+.list li a.product_img_link {height:150px;width:150px;}
+.list li .right_block { border:none;float:right;width:340px; height:auto;}
+.list li .right_block .compare {padding:6px 0 16px; width:100%; overflow:hidden;}
+.list li .right_block span.price { float:left;}
+.list li .right_block .exclusive {margin:0px 8px 0 0;}
+#product_list .right_block span.on_sale, #product_list .right_block span.discount { float:right; margin:0;}
+.grid li {width:156px;}
+.grid li.product_list-3 {width:158px;}
+.grid li a.product_img_link img{ width:150px; height:150px;}
+.grid li a.product_img_link { margin-left:0px;}
+#subcategories ul {width: 575px;}
+#subcategories ul li {height:161px;margin: 20px 20px 0 0;}
+
+/* ************************************************************************************************
+  BOX COLUMN
+************************************************************************************************ */
+/*newsletter*/
+#newsletter_block_left input[type="email"] {width:115px;}
+#layered_form .select {width:180px;}
+.products_block ul li > div {width: 91px;}
+#block_contact_infos ul {padding: 9px 0 30px 0px;}
+#cart_block .products .price {width:105px;}
+#your_account { display:none;}
+#cart_block #cart_block_list dt a img { width:60px; height:60px;}
+.blockmanufacturer select, .blocksupplier select {width: 181px;}
+/* ************************************************************************************************
+ CONTACT FORM
+************************************************************************************************ */
+#contact_form textarea#message {height: 200px;width:507px;}
+#contact_form p.submit{ padding-top:20px;}
+#contact_form p{ padding-top:7px; padding-left:0;}
+#contact_form p.upload-file{ display:none;}
+#contact_form label{ float:none; display:block; text-align:left; margin-bottom:7px;}
+#contact_form input{ float:none;}
+
+/* ************************************************************************************************
+ PRODUCT PAGE
+************************************************************************************************ */
+#primary_block #pb-right-column {float: left;margin:0px 0 0 135px;width:302px;}
+#primary_block #pb-left-column {padding:25px 0 0 0px;width:557px; margin:0;}
+#idTab1 div, #idTab1 p {margin: 17px 0 20px;padding: 0;}
+#idTab1 iframe{ width:556px!important; height:400px!important;}
+#idTab22 {padding:10px 20px 0px 0px; list-style:none;}
+#idTab4 li .accessories_price {width:130px;}
+#idTab4 li .accessories_desc {width:383px;}
+textarea.customization_block_input {width:534px;}
+.container2 {position: relative;width:556px;}
+#product_comments_block_tab div.comment div.comment_details {width: 350px;}
+#nextprev_links{ display:none;}
+.iosSlider2 .slider2 #item2 {width: 165px !important;}
+.iosSlider2 .slider2 #item2 img {height: 165px;width: 165px;}
+.iosSlider2 {height:230px!important;}
+/* ************************************************************************************************
+ LOGIN
+************************************************************************************************ */
+#authentication #create-account_form {width:268px;}
+#authentication #login_form {width:268px;}
+#create-account_form .text input, #create-account_form .password input {height: 15px;width:260px;}
+#login_form .text input, #login_form .password input {height: 15px; width:260px;}
+
+/* ************************************************************************************************
+ MANUFACTURE
+************************************************************************************************ */
+.mnf_sup_list li .left_side {float: left;padding: 0 0 0 20px;width: 260px;}
+.mnf_sup_list li .des-small { display:none;}
+
+/* ************************************************************************************************
+ ORDER
+************************************************************************************************ */
+table#cart_summary td.tdfirst { width: 83%;}
+#order_steps li {width: 109px;}
+#order_steps {width: 546px;}
+#order-list .history_detail .color-myaccount{ display:block;}
+.list-order-step li {height: 250px;}
+.list-order-step .img-order {margin-bottom:55px;}
+#order_steps li {width: 109px;}
+.multishipping-cart .cart_ref{ padding:5px!important;}
+#center_column  #block-history table.std th, #center_column  #block-history table.std td {padding:2px;}
+table.multishipping-cart td {padding: 5px !important;}
+}

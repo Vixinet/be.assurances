@@ -1,0 +1,213 @@
+/* #Mobile (Landscape) width of 480px
+================================================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* ************************************************************************************************
+GENERAL STYLE
+************************************************************************************************ */	
+#header-inner {}
+textarea {width:398px;}
+.contant-wrapper {width:440px;}
+#wrapper-2 {width:440px;}
+#right_column {padding-top:20px;}
+#header_logo img {}
+/* ************************************************************************************************
+HEADER
+************************************************************************************************ */	
+#search_block_top input.search_query {width:300px;}
+#header_user {
+    left: auto;
+    right: 0;
+    top: 84px;
+}
+#search_block_top {top: 141px;}
+#header-inner {padding-top: 191px;}
+#header #cart_block {
+    left: auto;
+    right: 0;
+    top: 115px;
+}
+/* ************************************************************************************************
+ USER INFO
+************************************************************************************************ */	
+#header_user_info {width:109px;}
+#header_user_info a.login {width:109px;background:url(../img/login.png) 48px 14px  no-repeat;}
+#header_user_info a.logout {width:109px;background:url(../img/logout.png) 48px 14px  no-repeat;}
+
+/* ************************************************************************************************
+MENU HEADER
+************************************************************************************************ */	
+.mobile-link-top{width:110px;}
+.mobile-link-top h4 .open-menu{right:22px;}
+.mobile-link-top h4.act .open-menu{right:22px;}
+
+/* ************************************************************************************************
+LANGUAGES
+************************************************************************************************ */	
+#languages_block_top {right:210px;width:109px;}
+#languages_block_top p { background: url(../img/btn-open.png) no-repeat 67px 21px;}
+#languages_block_top p.mobile-open{background: url(../img/btn-open2.png) no-repeat 67px 21px;}
+
+/* ************************************************************************************************
+CURRENCIES
+************************************************************************************************ */
+#currencies_block_top p.inner-carrencies.mobile-open{background: url(../img/btn-open2.png) no-repeat  65px 21px;}
+#currencies_block_top p.inner-carrencies {background: url(../img/btn-open.png) no-repeat  65px 21px;}
+#currencies_block_top {right:100px;width:109px;}
+
+/* ************************************************************************************************
+FORM
+************************************************************************************************ */	
+form.std .text input, form.std .password input {width:408px;line-height:35px; height:35px;}
+#account-creation_form p.select select option{ padding:5px;}
+#account-creation_form p.select select {width:420px;line-height:43px; height:43px;margin-bottom:20px;}	
+form.std .select select {height: 43px;line-height: 43px;padding: 2px;width:420px;}
+
+/* ************************************************************************************************
+HOMEFEATURED
+************************************************************************************************ */	
+#featured_products ul li .exclusive{margin-left:-118px;}
+#featured_products ul li {width:418px;}
+#featured_products ul li .featured_box{ width:290px;}
+#featured_products ul li .product_descr {margin-bottom:15px;}
+
+/* ************************************************************************************************
+BOX COL
+************************************************************************************************ */	
+.breadcrumb {width:380px; padding-right:20px;}
+div.column > div {margin: 0 0 0px;}
+div.column .block_content{ display:none;}
+div.column  div.block h4:hover{ cursor:pointer;}
+div.column  div.block h4 {background: url(../img/icon-toggle.png) no-repeat  98% 10px;}
+div.column  div.block h4.mobile-open{background: url(../img/icon-toggle.png) no-repeat 100% -116px;}
+#layered_block_left div.block_content { padding:10px 0px 0 0px; width:420px;}
+#layered_form .select {width:403px;}
+#layered_block_left span.layered_close a, #layered_block_left span.layered_close a {margin-right: 13px;}
+.products_block ul li {}
+.products_block li {float: left;}
+.products_block ul li > div {float: left;padding: 0 0 0 20px;width:305px;}
+div.column div.block ul.bullet {padding-top:0px; margin-bottom:0px;}
+div.column div.block ul.bullet li { padding-left:10px;}
+#newsletter_block_left input[type="email"] {width: 343px;}
+.manufacturers_block_left div.block_content{ padding-bottom:0; padding-left:0; padding-right:0;}
+div.column #manufacturers_block_left div.block_content{ padding-bottom:0; padding-left:0; padding-right:0; width:420px;}
+div.column div.block .block_content {padding: 0 0px 20px 0px; width:420px;}
+div.column #suppliers_block_left div.block_content{ padding-bottom:0; padding-left:0; padding-right:0; width:420px;}
+div.column #rss_block_left div.block_content{ padding-bottom:0; padding-left:0; padding-right:0; width:420px;}
+#links_block_left .block_content{ padding:0;width:420px;}
+#links_block_left .block_content  ul.bullet { padding-top:0;}
+.column #cart_block .products .price {width: 301px;}
+ #buy_block .row_1 p#quantity_wanted_p {
+    clear: none;
+    margin-top: 7px;
+    padding-right: 10px;
+}
+#header_user #shopping_cart .ajax_cart_total { display:none!important
+}
+/* ************************************************************************************************
+CONTACT FORM
+************************************************************************************************ */	
+#contact_form .text input {width:408px;}
+#contact_form select {width:418px;}
+#contact_form input#fileUpload{ width:407px;}
+#contact_form .select select {width:420px;}
+#contact_form textarea#message {
+    height: 200px;
+    width:398px;
+}
+/* ************************************************************************************************
+MANUFACTURE ADN SUPLIER
+************************************************************************************************ */	
+.mnf_sup_list li {height:auto;overflow: hidden;padding: 20px 0;}
+.mnf_sup_list li .right_side {border-style: solid;border-width: 0 0 0 0px;float: left;height: auto;padding-left:0px;padding-top:18px;position: relative;width: 120px;clear:both;}
+.mnf_sup_list li .left_side {float: left;padding: 0 0 0 20px;width:294px;}
+.mnf_sup_list li .left_side div a  em.des-small { display:none; font-style:normal;}
+.mnf_sup_list li .left_side div a span{ display:block;}
+
+/* ************************************************************************************************
+STORE PAGE
+************************************************************************************************ */	
+div#stores_block p.text input {width:407px;height:35px; line-height:35px;}
+div#stores_block p.select select{height:35px; line-height:35px;}
+
+/* ************************************************************************************************
+PRODUCT LIST
+************************************************************************************************ */
+#pagination {padding:0px 0px 0 0px; margin-top:10px;}
+#pagination_form {float:right;padding-top:0px;}
+#pagination_form a {float:right; margin-left:20px;}
+#pagination_form label {padding:13px 10px 0;}
+#pagination_form select {margin:0px 0 0 0;}
+.product_sort ul,.product_compare,.product_compare,#product_list li .product_desc.mob2,#product_list li .product_desc,#product_list li .mob-2{ display:none;}
+
+
+#tmfooterlinks h4, #social_block h4, #block_contact_infos h4{background:url(../img/footer-button.png) 100%  15px  no-repeat;}
+#tmfooterlinks h4.mobile-open, #block_contact_infos h4.mobile-open, #social_block h4.mobile-open{background:url(../img/mobile-close.png) 100%  15px  no-repeat;}
+#tmfooterlinks h4 a{ font-size:15px;}
+/* ************************************************************************************************
+PRODUCT LIST
+************************************************************************************************ */
+#product_list li {width:398px; padding:10px 10px 10px 10px;}
+#product_list li .mob{ display:block}
+#product_list li a.product_img_link { margin-right:20px;}
+#product_list li .center_block{width:260px;}
+#product_list li .product_desc.mob{ display:block; padding:0; margin:0;}
+#product_list li .right_block{width:263px;}
+#product_list li .button {margin-top:20px;}
+#product_list li .exclusive{margin-right:16px;margin-left: -118px; float:left; margin-top:20px; margin-bottom:0;}
+#subcategories ul {width: 440px;}
+#subcategories {width: 420px;}
+#center_column #subcategories ul li a {padding: 20px 22px 20px 22px;}
+#subcategories ul li {margin: 20px 20px 0 0px;}
+.product_sort #productsSortForm select {float:left;height:35px; line-height:35px;margin: 2px 0 0;width:353px;}
+.product_sort #productsSortForm label {display:block;float:left;padding: 13px 7px 0 0;}
+.product_sort #productsSortForm select option{ padding:7px;}
+
+/* ************************************************************************************************
+PAGE PRODUCT
+************************************************************************************************ */	
+#primary_block #pb-right-column {margin-left:59px;}
+#primary_block #pb-left-column {width:420px;}
+#primary_block #attributes select {width:420px;}
+#idTab4 li .accessories_desc {width:420px;}
+textarea.customization_block_input {width:398px;}
+#idTab1 iframe{ width:420px!important; height:300px!important;}
+.container2 {}
+.container2 {
+    width: 420px;
+}
+.iosSlider2 {
+    width: 420px !important;
+}
+.iosSlider2 .slider2 #item2 {
+    width: 120px !important;
+}
+/**********************************************************************************************
+LOGIN PAGE									
+***********************************************************************************************/
+#authentication #create-account_form,#authentication #login_form {width:420px;}
+#authentication #create-account_form .text input, #authentication #login_form .text input {width:408px;}
+p.cart_navigation .exclusive, p.cart_navigation .exclusive_large {float:right; margin-bottom:0px; margin-right:0px;}
+
+/**********************************************************************************************
+ORDER PAGE									
+***********************************************************************************************/
+.list-order-step li {height: auto;width:380px;}
+.list-order-step .img-order {height: 136px;}
+.list-order-step .price-order {padding-left:0px;}
+#order-detail-content #cart_summary td.cart_product img{ width:150px; height:150px;}
+table#cart_summary td.cart_product {width: 150px;}
+table#cart_summary .min-with-td {display: inline-block;font-weight: normal;min-width:100px;}
+#order_steps {margin: 20px 0 0 67px;}
+form#voucher fieldset p input.discount_name {width: 335px;}
+#compare_shipping_form p input {width:412px;}
+#compare_shipping_form p select {width: 420px;}
+#availableCarriers_table {width:420px;}
+table#cart_summary td.tdfirst {width: 77%;}
+#header_user #your_account a {padding:8px 0 0;}
+#sendOrderMessage select{ width:398px;}
+.addresses .address_delivery select{width:398px;}
+body#address div#center_column form.std p.textarea textarea {width:398px;}
+#add_adress .select select { width:420px;}
+#module-cheque-payment #center_column p.cart_navigation .exclusive, #module-cheque-payment #center_column p.cart_navigation .exclusive_large {float:right;margin-bottom: 20px;margin-top:0px; margin-right:10px;}
+#product_comments_block_tab div.comment div.comment_details {width: 283px;}
+}

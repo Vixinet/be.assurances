@@ -1,0 +1,89 @@
+* {
+  font-family : Verdana;
+}
+
+html, body {
+  margin : 0px;
+  padding : 0px;
+}
+
+body {
+  
+}
+
+#errors, #infos {
+  margin : 10px;
+}
+#errors p { color : red; }
+#infos p { color : green; }
+.msg {
+  font-size : 12px;
+  margin : 2px;
+}
+
+
+#debug p, #debug pre {
+  background : black;
+  color : white;
+  font-size : 10px;
+  margin : 0px;
+  padding : 2px;
+}
+
+
+#header {
+  border : 1px solid black;
+  background : #efefef;
+  margin : 10px;
+  padding : 10px;
+}
+
+#calc {
+  border : 1px dashed darkblue;
+  background : lightblue;
+}
+#calc .slider {
+  margin : 10px;
+}
+
+#menu {
+  border : 1px solid #666;
+  background : #efefef;
+  margin : 10px;
+  padding : 10px;
+}
+
+td, th {
+  border : 1px solid black;
+  font-size : 12px;
+  padding : 5px;
+}
+
+table {
+  margin : 10px;
+  border-collapse : collapse;
+}
+
+.center {
+  text-align : center;
+}
+
+h1 {
+  font-size : 18px;
+}
+th.lvl1 {
+  font-size : 14px;
+  background : #666;
+  color : white;
+}
+th.lvl2 {
+  font-size : 12px;
+  background : #ddd;
+  color : black;
+}
+
+table.ghost, table.ghost td, table.ghost th {
+  border : none;
+  margin : 0px;
+  padding : 0px;
+}
